@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Contador from '../Components/Contador';
-import LearnButton from '../Components/LearnButton';
 import Image from 'next/image';
 import Logo from '../public/assets/premiumdrop.svg';
 
@@ -23,8 +22,8 @@ export default function Home() {
         <main className="font-semibold text-xl lg:text-3xl text-center ">
           <p className="mb-4">¡Aprende a vender en línea con dropshipping!</p>
           <p>
-            Generarás ingresos a través de una comisión por cada venta, y
-            tendrás la libertad de establecer los precios de los productos.
+            Generar ingresos a través de una comisión por cada venta, y tendrás
+            la libertad de establecer los precios de los productos.
           </p>
 
           {/* 
@@ -43,21 +42,23 @@ export default function Home() {
         </main>
       </div>
       <div className="container mx-auto bg-blue-500 p-10">
-        <h2>Productos Exclusivos</h2>
+        <h2>
+          CREA UN EMPRENDIMIENTO VIRTUAL Y EMPIEZA A VENDER PRODUCTOS DIGITALES
+        </h2>
         <p>Te enseñaremos a encontrar y vender productos premium.</p>
       </div>
       <div className="container mx-auto p-10">
-        <h2>Servicio Destacado</h2>
+        <h2></h2>
         <p>Aprende a brindar atención al cliente de nivel premium.</p>
       </div>
-      <div className="container mx-auto bg-black text-white p-10">
+      <div className="container mx-auto bg-black text-white p-20">
         <h2>Productos Exclusivos</h2>
         <p>Te enseñaremos a encontrar y vender productos premium.</p>
       </div>
 
-      <LearnButton />
-
-      <footer></footer>
+      <footer className="flex items-center justify-center h-10 bg-gray-800 text-white">
+        <p>© {new Date().getFullYear()} Dropshipping Premium</p>
+      </footer>
     </div>
   );
 }
