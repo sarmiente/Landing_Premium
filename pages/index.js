@@ -1,8 +1,10 @@
 import Head from 'next/head';
 import Contador from '../Components/Contador';
+
 import Image from 'next/image';
 import Logo from '../public/assets/premiumdrop.svg';
 import Flecha from '../public/assets/flecha.svg';
+import ModalCard from '../Components/ModalCard';
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       <div className="text-center p-3 bg-blue-500 text-white text-xl lg:text-3xl mb-5">
         <Contador />
       </div>
+
       <h1 className="font-semibold text-xl lg:text-3xl text-center text-red-500">
         Accede al curso ahora
       </h1>
@@ -30,6 +33,8 @@ export default function Home() {
           </p>
         </main>
       </div>
+
+      <ModalCard />
       <div className="container mx-auto bg-blue-500 p-10 font-semibold text-xl lg:text-3xl text-center text-white">
         <h2>
           CREA UN EMPRENDIMIENTO VIRTUAL Y EMPIEZA A VENDER PRODUCTOS DIGITALES
