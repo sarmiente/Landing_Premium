@@ -21,7 +21,7 @@ export default function Home() {
 
       <div className="container mx-auto p-5 lg:p-10">
         <main className="font-semibold text-xl lg:text-3xl text-center ">
-          <p>¡Aprende a vender en línea con dropshipping!</p>
+          <p className="mb-4">¡Aprende a vender en línea con dropshipping!</p>
           <p>
             Generarás ingresos a través de una comisión por cada venta, y
             tendrás la libertad de establecer los precios de los productos.
@@ -41,6 +41,18 @@ export default function Home() {
           </p>
          */}
         </main>
+      </div>
+      <div className="container mx-auto bg-blue-500 p-10">
+        <h2>Productos Exclusivos</h2>
+        <p>Te enseñaremos a encontrar y vender productos premium.</p>
+      </div>
+      <div className="container mx-auto p-10">
+        <h2>Servicio Destacado</h2>
+        <p>Aprende a brindar atención al cliente de nivel premium.</p>
+      </div>
+      <div className="container mx-auto bg-black text-white p-10">
+        <h2>Productos Exclusivos</h2>
+        <p>Te enseñaremos a encontrar y vender productos premium.</p>
       </div>
 
       <LearnButton />
