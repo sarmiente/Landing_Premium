@@ -47,10 +47,11 @@ export default function Home() {
         <Image width="250" src={Flecha} />
       </div>
 
-      <div className="container mx-auto bg-black text-white text-center p-20">
+      <div className="container mx-auto bg-black text-center p-20">
         <button
-          className="hover:scale-105 bg-red-500 p-4 rounded-xl font-bold"
-          src=""
+          className="hover:scale-105 bg-red-500 p-4 rounded-xl font-bold text-white"
+          src="https://pay.hotmart.com/F37843021Y"
+          target="__blank"
         >
           ¡SI, QUIERO Acceder Ahora!
         </button>
