@@ -10,7 +10,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Clase Online - Emprende en los Negocios Digitales</title>
+        <title>
+          Premium Dropshipping - Inventario Cero | Accede al curso ahora
+        </title>
       </Head>
 
       <div className="text-center p-3 bg-blue-500 text-white text-xl lg:text-3xl mb-5">
@@ -63,13 +65,17 @@ export default function Home() {
       </div>
 
       <div className="container mx-auto bg-blue-500 text-center p-16">
+        <p className="text-2xl font-bold">
+          Descubra las Estrategias de Dropshipping para vender productos de alta
+          calidad
+        </p>
         <a
           href="https://pay.hotmart.com/F37843021Y"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:scale-105 rounded-xl font-bold bg-black text-white p-3 rounded-md mt-4 inline-block"
         >
-          ¡SI, QUIERO Acceder Ahora!
+          ¡Acceder Ahora!
         </a>
       </div>
 
