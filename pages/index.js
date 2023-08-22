@@ -95,7 +95,7 @@ export default function Home() {
       </div>
 
       <footer className="container mx-auto flex justify-center h-auto bg-gray-800 text-white p-10">
-        <p> Dropshipping Premium © {new Date().getFullYear()} </p>
+        <p> Premium Dropshipping © {new Date().getFullYear()} </p>
       </footer>
     </div>
   );
